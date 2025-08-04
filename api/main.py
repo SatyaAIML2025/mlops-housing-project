@@ -5,15 +5,15 @@ import mlflow
 import mlflow.pyfunc
 
 # Point to your MLflow Tracking server (where the registry is)
-mlflow.set_tracking_uri("http://localhost:5000") 
+mlflow.set_tracking_uri("http://localhost:5000")
 
 # ----------------------------
 # Load model from MLflow Registry
 # ----------------------------
 MODEL_NAME = "BestHousingModel"
-MODEL_STAGE_OR_VERSION = "latest"  # or e.g. "Production" stage
+MODEL_VERSION = "latest"  # or e.g. "Production" stage
 
-model = mlflow.pyfunc.load_model(f"models:/{MODEL_NAME}/{MODEL_STAGE_OR_VERSION}")
+model = mlflow.pyfunc.load_model(f"models:/{MODEL_NAME}/{MODEL_VERSION}")
 
 app = FastAPI(title="Housing Price Prediction API")
 
