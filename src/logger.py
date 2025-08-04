@@ -10,9 +10,8 @@ LOG_FILE = os.path.join(LOGS_DIR, f"{datetime.now().strftime('%Y-%m-%d')}.log")
 logging.basicConfig(
     filename=LOG_FILE,
     format="%(asctime)s - %(levelname)s - %(message)s",
-    level=logging.INFO,
+    level=logging.INFO
 )
-
 
 def get_logger(name):
     logger = logging.getLogger(name)

@@ -6,7 +6,6 @@ from src.logger import get_logger
 
 logger = get_logger(__name__)
 
-
 def load_and_save_data(data_dir="data/raw"):
     try:
         # Load dataset
@@ -22,7 +21,6 @@ def load_and_save_data(data_dir="data/raw"):
     except Exception as e:
         logger.error(f"Error occurred while splitting data: {str(e)}")
         raise CustomException("Failed to splitting data") from e
-
 
 if __name__ == "__main__":
     load_and_save_data()

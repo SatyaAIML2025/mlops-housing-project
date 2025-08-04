@@ -1,6 +1,4 @@
 import sys
-
-
 class CustomException(Exception):
     def __init__(self, message: str, error_detail: Exception = None):
         self.error_message = self.get_error_message(message, error_detail)
