@@ -26,6 +26,8 @@ jobs:
       #- name: Lint with flake8
         #run: |
          # flake8 src tests api --max-line-length=120
+      - name: Set PYTHONPATH
+        run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)" >> $GITHUB_ENV
 
       - name: Run tests with pytest
         run: |
