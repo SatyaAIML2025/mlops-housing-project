@@ -1,8 +1,9 @@
-from fastapi import FastAPI
-from pydantic import BaseModel
 import pandas as pd
 import mlflow
 import mlflow.pyfunc
+from fastapi import FastAPI
+from pydantic import BaseModel
+
 
 # Point to your MLflow Tracking server (where the registry is)
 mlflow.set_tracking_uri("http://localhost:5000")
