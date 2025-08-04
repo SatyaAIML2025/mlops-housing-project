@@ -1,0 +1,22 @@
+artifact_path: file:///d:/MLOpsSAssignment/mlops-housing-project/notebooks/mlruns/900441419412460389/models/m-9eeea9dd676840a99915ff299a4dad65/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.1.4
+model_id: m-9eeea9dd676840a99915ff299a4dad65
+model_size_bytes: 2284837
+model_uuid: m-9eeea9dd676840a99915ff299a4dad65
+prompts: null
+run_id: f578d7a3a57045e680a4c5e827a37e33
+utc_time_created: '2025-08-03 12:50:49.787151'

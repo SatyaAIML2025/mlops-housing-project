@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/MLOpsSAssignment/mlops-housing-project/notebooks/mlruns/900441419412460389/62e957f84d2045409e20ac2fbe78db20/artifacts
+end_time: 1754229953524
+entry_point_name: ''
+experiment_id: '900441419412460389'
+lifecycle_stage: active
+run_id: 62e957f84d2045409e20ac2fbe78db20
+run_name: LinearRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754229953333
+status: 4
+tags: []
+user_id: Advanki

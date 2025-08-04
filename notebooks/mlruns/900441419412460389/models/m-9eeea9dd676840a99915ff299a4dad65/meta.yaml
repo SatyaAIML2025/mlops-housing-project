@@ -1,0 +1,10 @@
+artifact_location: file:///d:/MLOpsSAssignment/mlops-housing-project/notebooks/mlruns/900441419412460389/models/m-9eeea9dd676840a99915ff299a4dad65/artifacts
+creation_timestamp: 1754225449706
+experiment_id: '900441419412460389'
+last_updated_timestamp: 1754225455791
+model_id: m-9eeea9dd676840a99915ff299a4dad65
+model_type: null
+name: model
+source_run_id: f578d7a3a57045e680a4c5e827a37e33
+status: 2
+status_message: null

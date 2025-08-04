@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/MLOpsSAssignment/mlops-housing-project/notebooks/mlruns/900441419412460389/ae28438cd8ea491b8cdf4c4476f58b15/artifacts
+end_time: 1754227286048
+entry_point_name: ''
+experiment_id: '900441419412460389'
+lifecycle_stage: active
+run_id: ae28438cd8ea491b8cdf4c4476f58b15
+run_name: DecisionTree
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754227279935
+status: 3
+tags: []
+user_id: Advanki

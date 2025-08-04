@@ -1,3 +1,9 @@
 scikit-learn
 pandas
 dvc
+mlflow
+matplotlib
+fastapi
+uvicorn
+flake8
+pytest
