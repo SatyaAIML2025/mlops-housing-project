@@ -15,7 +15,7 @@ def load_and_save_data(data_dir="data/raw"):
         # Save raw data
         os.makedirs(data_dir, exist_ok=True)
         logger.info("Directory created")
-        df.to_csv(os.path.join(data_dir, "californ_housing.csv"), index=False)
+        df.to_csv(os.path.join(data_dir, "california_housing.csv"), index=False)
         logger.info("Data saved to csv file")
         return df
     except Exception as e:
